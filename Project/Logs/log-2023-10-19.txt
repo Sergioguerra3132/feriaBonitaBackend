@@ -1,0 +1,230 @@
+2023-10-19T19:27:28.817Z - Circuit has been opened.
+2023-10-19T19:27:28.817Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.match.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\match.model.js:6:29
+
+  3 
+  4 exports.createMatch = async (data) => {
+  5 
+→ 6   return await prisma.match.create({
+        data: {
+          MatchDate: "2023-10-19",
+          MatchEndDate: "2023-10-19",
+          Conquest_has_sysUser_Conquest_idConquest: 21,
+          Conquest_has_sysUser_sysUser_idsysuser: 85,
+      +   Conquest_has_sysUser: {
+      +     create: Conquest_has_sysUserCreateWithoutMatchInput | Conquest_has_sysUserUncheckedCreateWithoutMatchInput,
+      +     connectOrCreate: Conquest_has_sysUserCreateOrConnectWithoutMatchInput,
+      +     connect: Conquest_has_sysUserWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `Conquest_has_sysUser` is missing.
+2023-10-19T19:27:28.817Z - Circuit open. Using fallback.
+2023-10-19T19:27:58.828Z - Circuit is half open.
+2023-10-19T19:29:46.693Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.match.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\match.model.js:7:29
+
+  4 exports.createMatch = async (data) => {
+  5 
+  6   console.log(data)
+→ 7   return await prisma.match.create({
+        data: {
+          MatchDate: "2023-10-19",
+          MatchEndDate: "2023-10-19",
+          Conquest_has_sysUser_Conquest_idConquest: 21,
+          Conquest_has_sysUser_sysUser_idsysuser: 85,
+      +   Conquest_has_sysUser: {
+      +     create: Conquest_has_sysUserCreateWithoutMatchInput | Conquest_has_sysUserUncheckedCreateWithoutMatchInput,
+      +     connectOrCreate: Conquest_has_sysUserCreateOrConnectWithoutMatchInput,
+      +     connect: Conquest_has_sysUserWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `Conquest_has_sysUser` is missing.
+2023-10-19T19:29:46.693Z - Circuit has been opened.
+2023-10-19T19:29:46.693Z - Circuit open. Using fallback.
+2023-10-19T19:30:16.691Z - Circuit is half open.
+2023-10-19T19:31:32.714Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.match.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\match.model.js:9:29
+
+  6 exports.createMatch = async (data) => {
+  7 
+  8   console.log(data)
+→ 9   return await prisma.match.create({
+        data: {
+          MatchDate: "2023-10-19",
+          MatchEndDate: "2023-10-19",
+          Conquest_has_sysUser_Conquest_idConquest: 21,
+          Conquest_has_sysUser_sysUser_idsysuser: 85,
+      +   Conquest_has_sysUser: {
+      +     create: Conquest_has_sysUserCreateWithoutMatchInput | Conquest_has_sysUserUncheckedCreateWithoutMatchInput,
+      +     connectOrCreate: Conquest_has_sysUserCreateOrConnectWithoutMatchInput,
+      +     connect: Conquest_has_sysUserWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `Conquest_has_sysUser` is missing.
+2023-10-19T19:31:32.715Z - Circuit has been opened.
+2023-10-19T19:31:32.715Z - Circuit open. Using fallback.
+2023-10-19T19:32:02.726Z - Circuit is half open.
+2023-10-19T19:54:03.529Z - Circuit open. Using fallback.
+2023-10-19T19:54:03.530Z - Circuit has been opened.
+2023-10-19T19:54:03.530Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:6:32
+
+  3 
+  4 exports.createConquest = async (data) => {
+  5 
+→ 6   return await prisma.conquest.create({
+        data: {
+          ConquestName: "string",
+          InitialRegisterDate: "2023-10-19",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-19",
+          InitialEventDate: "2023-10-19",
+          days: 5,
+          Prize: "string",
+          CreateDate: new Date("2023-10-19T19:54:02.837Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 5
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-19T19:54:33.537Z - Circuit is half open.
+2023-10-19T19:55:11.945Z - Circuit has been opened.
+2023-10-19T19:55:11.946Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:8:32
+
+  5 
+  6 exports.createConquest = async (data) => {
+  7 
+→ 8   return await prisma.conquest.create({
+        data: {
+          ConquestName: "string",
+          InitialRegisterDate: "2023-10-19",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-19",
+          InitialEventDate: "2023-10-19",
+          days: 5,
+          Prize: "string",
+          CreateDate: new Date("2023-10-19T19:55:11.598Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 5
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-19T19:55:11.946Z - Circuit open. Using fallback.
+2023-10-19T19:55:41.955Z - Circuit is half open.
+2023-10-19T20:01:23.738Z - Circuit has been opened.
+2023-10-19T20:01:23.738Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:8:32
+
+  5 
+  6 exports.createConquest = async (data) => {
+  7 
+→ 8   return await prisma.conquest.create({
+        data: {
+          ConquestName: "string",
+          InitialRegisterDate: "2023-10-19",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-19",
+          InitialEventDate: "2023-10-19",
+          days: 5,
+          Prize: "string",
+          CreateDate: new Date("2023-10-19T20:01:23.398Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 8,
+          IsMainConquest: undefined
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-19T20:01:23.738Z - Circuit open. Using fallback.
+2023-10-19T20:01:53.748Z - Circuit is half open.
+2023-10-19T21:35:53.339Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:37:28
+
+  34 };
+  35 
+  36 exports.closeWave = async (id, data) => {
+→ 37   return await prisma.wave.update(
+Foreign key constraint failed on the field: `WaveStatus_idWaveStatus`
+2023-10-19T21:35:53.339Z - Circuit has been opened.
+2023-10-19T21:35:53.339Z - Circuit open. Using fallback.
+2023-10-19T21:36:23.341Z - Circuit is half open.
+2023-10-19T21:37:49.727Z - Circuit open. Using fallback.
+2023-10-19T21:37:49.728Z - Circuit has been opened.
+2023-10-19T21:37:49.728Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:37:28
+
+  34 };
+  35 
+  36 exports.closeWave = async (id, data) => {
+→ 37   return await prisma.wave.update(
+Foreign key constraint failed on the field: `WaveStatus_idWaveStatus`
+2023-10-19T21:38:19.745Z - Circuit is half open.
+2023-10-19T21:40:50.851Z - Circuit has been opened.
+2023-10-19T21:40:50.851Z - Circuit open. Using fallback.
+2023-10-19T21:40:50.851Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:39:28
+
+  36 };
+  37 
+  38 exports.closeWave = async (id, data) => {
+→ 39   return await prisma.wave.update(
+Foreign key constraint failed on the field: `WaveStatus_idWaveStatus`
+2023-10-19T21:41:20.858Z - Circuit is half open.
+2023-10-19T21:48:41.320Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:39:28
+
+  36 };
+  37 
+  38 exports.closeWave = async (id, WaveStatus_idWaveStatus) => {
+→ 39   return await prisma.wave.update({
+         WaveStatus_idWaveStatus: 2,
+         ~~~~~~~~~~~~~~~~~~~~~~~
+         where: {
+           idWave: 1
+         },
+       ? data?: WaveUpdateInput | WaveUncheckedUpdateInput
+       })
+
+Unknown argument `WaveStatus_idWaveStatus`. Available options are listed in green.
+2023-10-19T21:48:41.320Z - Circuit has been opened.
+2023-10-19T21:48:41.320Z - Circuit open. Using fallback.
+2023-10-19T21:49:11.323Z - Circuit is half open.
+2023-10-19T21:51:19.289Z - Circuit open. Using fallback.
+2023-10-19T21:51:19.289Z - Circuit has been opened.
+2023-10-19T21:51:19.289Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:39:28
+
+  36 };
+  37 
+  38 exports.closeWave = async (id, WaveStatus_idWaveStatus) => {
+→ 39   return await prisma.wave.update({
+         WaveStatus_idWaveStatus: 2,
+         ~~~~~~~~~~~~~~~~~~~~~~~
+         where: {
+           idWave: 1
+         },
+       ? data?: WaveUpdateInput | WaveUncheckedUpdateInput
+       })
+
+Unknown argument `WaveStatus_idWaveStatus`. Available options are listed in green.
+2023-10-19T21:51:49.295Z - Circuit is half open.

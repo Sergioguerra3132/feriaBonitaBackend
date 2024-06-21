@@ -1,0 +1,4 @@
+2023-10-21T16:41:09.252Z - Action failed: TypeError: error is not a constructor
+2023-10-21T16:41:09.252Z - Circuit open. Using fallback.
+2023-10-21T16:41:09.252Z - Circuit has been opened.
+2023-10-21T16:41:39.275Z - Circuit is half open.

@@ -1,0 +1,77 @@
+2024-04-19T15:07:06.382Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\mjup2\OneDrive\Documentos\GitHub\steelshockbackend\Project\models\sysUser.model.js:53:37
+
+  50 
+  51 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  52 
+→ 53   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2024-04-19T15:07:06.381Z - Circuit has been opened.
+2024-04-19T15:07:06.382Z - Circuit open. Using fallback.
+2024-04-19T15:07:36.381Z - Circuit is half open.
+2024-04-19T15:20:47.307Z - Action failed: Error: Timed out after 10000ms
+2024-04-19T15:20:47.364Z - Circuit has been opened.
+2024-04-19T15:20:47.369Z - Circuit open. Using fallback.
+2024-04-19T15:23:07.686Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\mjup2\OneDrive\Documentos\GitHub\steelshockbackend\Project\models\sysUser.model.js:53:37
+
+  50 
+  51 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  52 
+→ 53   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2024-04-19T15:23:07.684Z - Circuit has been opened.
+2024-04-19T15:23:07.686Z - Circuit open. Using fallback.
+2024-04-19T15:23:08.099Z - Circuit open. Using fallback.
+2024-04-19T15:23:09.868Z - Circuit open. Using fallback.
+2024-04-19T15:23:18.228Z - Circuit open. Using fallback.
+2024-04-19T15:23:37.679Z - Circuit is half open.
+2024-04-19T15:24:09.920Z - Circuit has been closed.
+2024-04-19T23:02:18.902Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.sysUser.update()` invocation in
+D:\TexelBit Repos\SteelSHockBackend\steelshockbackend\Project\models\sysUser.model.js:35:31
+
+  32 };
+  33 
+  34 exports.updateSysUser = async (id, data) => {
+→ 35   return await prisma.sysUser.update({
+         where: {
+           idsysuser: 2358
+         },
+         data: {
+           sysUserTokenGoogle: "adasdsadasdsa",
+           ~~~~~~~~~~~~~~~~~~
+       ?   userName?: String | StringFieldUpdateOperationsInput,
+       ?   email?: String | StringFieldUpdateOperationsInput,
+       ?   password?: String | StringFieldUpdateOperationsInput,
+       ?   walletAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   tempPassword?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   tempCode?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   tempPasswordExpDate?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+       ?   creationDate?: DateTime | DateTimeFieldUpdateOperationsInput,
+       ?   codeLoginWallet?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   activationCodeLoginWalletExpirationDate?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+       ?   activationCode?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   activationCodeExpirationDate?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+       ?   sysUserCurrentSteel?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   sysUserCurrentSteelDecrypted?: Float | NullableFloatFieldUpdateOperationsInput | Null,
+       ?   sysUserCups?: String | NullableStringFieldUpdateOperationsInput | Null,
+       ?   sysUserCupsDecrypted?: Float | NullableFloatFieldUpdateOperationsInput | Null,
+       ?   code?: codeUpdateManyWithoutSysUserNestedInput,
+       ?   rankedDivision?: rankedDivisionUpdateOneRequiredWithoutSysUserNestedInput,
+       ?   userRole?: userRoleUpdateOneRequiredWithoutSysUserNestedInput,
+       ?   userStatus?: userStatusUpdateOneRequiredWithoutSysUserNestedInput,
+       ?   userItemInventory?: userItemInventoryUpdateManyWithoutSysUserNestedInput
+         }
+       })
+
+Unknown argument `sysUserTokenGoogle`. Available options are marked with ?.
+2024-04-19T23:02:18.903Z - Circuit open. Using fallback.
+2024-04-19T23:02:18.903Z - Circuit has been opened.
+2024-04-19T23:02:48.901Z - Circuit is half open.

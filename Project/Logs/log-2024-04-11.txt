@@ -1,0 +1,55 @@
+2024-04-11T18:34:27.554Z - Circuit has been opened.
+2024-04-11T18:34:27.554Z - Circuit open. Using fallback.
+2024-04-11T18:34:27.554Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\Pc 8\Documents\GitHub\steelshockbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Unknown nested field 'sysUser_has_Guild' for operation findUniquesysUser does not match any query.
+2024-04-11T18:34:57.554Z - Circuit is half open.
+2024-04-11T18:59:16.945Z - Circuit has been opened.
+2024-04-11T18:59:16.945Z - Circuit open. Using fallback.
+2024-04-11T18:59:16.945Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\Pc 8\Documents\GitHub\steelshockbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Unknown nested field 'sysUser_has_Guild' for operation findUniquesysUser does not match any query.
+2024-04-11T18:59:21.258Z - Circuit open. Using fallback.
+2024-04-11T18:59:23.698Z - Circuit open. Using fallback.
+2024-04-11T18:59:23.850Z - Circuit open. Using fallback.
+2024-04-11T18:59:23.994Z - Circuit open. Using fallback.
+2024-04-11T18:59:24.122Z - Circuit open. Using fallback.
+2024-04-11T18:59:24.242Z - Circuit open. Using fallback.
+2024-04-11T18:59:24.370Z - Circuit open. Using fallback.
+2024-04-11T18:59:46.947Z - Circuit is half open.
+2024-04-11T19:00:31.859Z - Circuit open. Using fallback.
+2024-04-11T19:00:31.859Z - Circuit has been opened.
+2024-04-11T19:00:31.859Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\Pc 8\Documents\GitHub\steelshockbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Unknown nested field 'sysUser_has_Guild' for operation findUniquesysUser does not match any query.
+2024-04-11T19:01:01.866Z - Circuit is half open.
+2024-04-11T19:01:12.896Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\Pc 8\Documents\GitHub\steelshockbackend\Project\models\sysUser.model.js:52:37
+
+  49 
+  50 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  51 
+→ 52   const user=  await prisma.sysUser.findUnique(
+Unknown nested field 'sysUser_has_Guild' for operation findUniquesysUser does not match any query.
+2024-04-11T19:01:12.896Z - Circuit open. Using fallback.
+2024-04-11T19:01:12.897Z - Circuit has been opened.
+2024-04-11T19:01:42.903Z - Circuit is half open.

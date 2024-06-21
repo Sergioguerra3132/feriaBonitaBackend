@@ -1,0 +1,57 @@
+2024-04-26T00:06:26.343Z - Action failed: ReferenceError: userId is not defined
+2024-04-26T00:06:26.344Z - Circuit open. Using fallback.
+2024-04-26T00:06:26.344Z - Circuit has been opened.
+2024-04-26T00:06:47.012Z - Circuit open. Using fallback.
+2024-04-26T00:06:56.332Z - Circuit is half open.
+2024-04-26T00:07:06.061Z - Circuit open. Using fallback.
+2024-04-26T00:07:06.062Z - Circuit has been opened.
+2024-04-26T00:07:06.062Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.deck.findMany()` invocation in
+D:\TexelBit Repos\SteelSHockBackend\steelshockbackend\Project\models\deck.model.js:33:41
+
+  30 
+  31 exports.getMyDecks = async (id) => {
+  32     try {
+→ 33         const decks = await prisma.deck.findMany({
+               include: {
+                 userItemInventory_has_deck: {
+                   select: {
+                     userItemInventory: {
+                       where: {
+                       ~~~~~
+                         sysUser_idsysuser: 2350
+                       },
+                       select: {
+                         item: true
+                       }
+                     }
+                   }
+                 }
+               }
+             })
+
+Unknown argument `where`.
+2024-04-26T00:07:36.054Z - Circuit is half open.
+2024-04-26T12:24:53.389Z - Circuit open. Using fallback.
+2024-04-26T12:24:53.391Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.userItemInventory_has_deck.delete()` invocation in
+D:\TexelBit Repos\SteelSHockBackend\steelshockbackend\Project\models\deck.model.js:229:88
+
+  226 exports.deleteUserItemInventoryHasDeck = async(deckId,itemId) => { 
+  227     try {
+  228         console.log(deckId, " ", itemId)
+→ 229         const userItemInventoryHasDeck = await prisma.userItemInventory_has_deck.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist.
+2024-04-26T12:24:53.391Z - Circuit has been opened.
+2024-04-26T12:25:23.388Z - Circuit is half open.
+2024-04-26T12:30:11.761Z - Circuit has been opened.
+2024-04-26T12:30:11.762Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.userItemInventory_has_deck.delete()` invocation in
+D:\TexelBit Repos\SteelSHockBackend\steelshockbackend\Project\models\deck.model.js:229:88
+
+  226 exports.deleteUserItemInventoryHasDeck = async(deckId,itemId) => { 
+  227     try {
+  228         console.log(deckId, " ", itemId)
+→ 229         const userItemInventoryHasDeck = await prisma.userItemInventory_has_deck.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist.
+2024-04-26T12:30:11.762Z - Circuit open. Using fallback.

@@ -1,0 +1,204 @@
+2023-10-18T20:27:29.810Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.Conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:5:32
+
+  2 const prisma = new PrismaClient();
+  3 
+  4 exports.createConquest = async (data) => {
+→ 5   return await prisma.Conquest.create({
+        data: {
+          ConquestName: "owowowowowowow",
+          InitialRegisterDate: "2023-10-18",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-18",
+          InitialEventDate: "2023-10-18",
+          days: 3,
+          Prize: "string",
+          CreateDate: new Date("2023-10-18T20:27:29.693Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 20
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-18T20:27:29.810Z - Circuit open. Using fallback.
+2023-10-18T20:27:29.810Z - Circuit has been opened.
+2023-10-18T20:27:59.824Z - Circuit is half open.
+2023-10-18T20:28:31.768Z - Circuit has been opened.
+2023-10-18T20:28:31.768Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.Conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:5:32
+
+  2 const prisma = new PrismaClient();
+  3 
+  4 exports.createConquest = async (data) => {
+→ 5   return await prisma.Conquest.create({
+        data: {
+          ConquestName: "owowowowowowow",
+          InitialRegisterDate: "2023-10-18",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-18",
+          InitialEventDate: "2023-10-18",
+          days: 3,
+          Prize: "string",
+          CreateDate: new Date("2023-10-18T20:28:31.359Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 20
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-18T20:28:31.768Z - Circuit open. Using fallback.
+2023-10-18T20:28:53.193Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.Conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:5:32
+
+  2 const prisma = new PrismaClient();
+  3 
+  4 exports.createConquest = async (data) => {
+→ 5   return await prisma.Conquest.create({
+        data: {
+          ConquestName: "owowowowowowow",
+          InitialRegisterDate: "2023-10-18",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-18",
+          InitialEventDate: "2023-10-18",
+          days: 3,
+          Prize: "string",
+          CreateDate: new Date("2023-10-18T20:28:52.824Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 20
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-18T20:28:53.193Z - Circuit has been opened.
+2023-10-18T20:28:53.193Z - Circuit open. Using fallback.
+2023-10-18T20:29:23.200Z - Circuit is half open.
+2023-10-18T20:47:11.979Z - Circuit has been opened.
+2023-10-18T20:47:11.979Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.Conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:6:32
+
+  3 
+  4 exports.createConquest = async (data) => {
+  5   console.log(data)
+→ 6   return await prisma.Conquest.create({
+        data: {
+          ConquestName: "owowowowowowow",
+          InitialRegisterDate: "2023-10-18",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-18",
+          InitialEventDate: "2023-10-18",
+          days: 3,
+          Prize: "string",
+          CreateDate: new Date("2023-10-18T20:47:11.513Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 20
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-18T20:47:11.979Z - Circuit open. Using fallback.
+2023-10-18T20:47:41.988Z - Circuit is half open.
+2023-10-18T20:56:49.317Z - Circuit has been opened.
+2023-10-18T20:56:49.317Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:6:32
+
+  3 
+  4 exports.createConquest = async (data) => {
+  5   console.log(data)
+→ 6   return await prisma.conquest.create({
+        data: {
+          ConquestName: "owowowowowowow",
+          InitialRegisterDate: "2023-10-18",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-18",
+          InitialEventDate: "2023-10-18",
+          days: 3,
+          Prize: "string",
+          CreateDate: new Date("2023-10-18T20:56:48.895Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 20
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-18T20:56:49.317Z - Circuit open. Using fallback.
+2023-10-18T21:03:38.326Z - Circuit has been opened.
+2023-10-18T21:03:38.326Z - Circuit open. Using fallback.
+2023-10-18T21:03:38.326Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:6:32
+
+  3 
+  4 exports.createConquest = async (data) => {
+  5 
+→ 6   return await prisma.conquest.create({
+        data: {
+          ConquestName: "string",
+          InitialRegisterDate: "2023-10-18",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-18",
+          InitialEventDate: "2023-10-18",
+          days: 3,
+          Prize: "string",
+          CreateDate: new Date("2023-10-18T21:03:37.808Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 5
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-18T21:07:19.446Z - Circuit open. Using fallback.
+2023-10-18T21:07:19.447Z - Circuit has been opened.
+2023-10-18T21:07:19.447Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:6:32
+
+  3 
+  4 exports.createConquest = async (data) => {
+  5 
+→ 6   return await prisma.conquest.create({
+        data: {
+          ConquestName: "string",
+          InitialRegisterDate: "2023-10-18",
+                               ~~~~~~~~~~~~
+          EndRegisterDate: "2023-10-18",
+          InitialEventDate: "2023-10-18",
+          days: 3,
+          Prize: "string",
+          CreateDate: new Date("2023-10-18T21:07:19.079Z"),
+          ConquestStatus_idConquestStatus: 1,
+          MembersGuildForCalculate: 5
+        }
+      })
+
+Invalid value for argument `InitialRegisterDate`: premature end of input. Expected ISO-8601 DateTime.
+2023-10-18T21:07:49.455Z - Circuit is half open.
+2023-10-18T22:03:05.515Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.match.create()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\match.model.js:6:29
+
+  3 
+  4 exports.createMatch = async (data) => {
+  5 
+→ 6   return await prisma.match.create({
+        data: {
+          MatchDate: "2023-10-18",
+          MatchEndDate: "2023-10-18",
+          Conquest_has_sysUser_Conquest_idConquest: 21,
+          Conquest_has_sysUser_sysUser_idsysuser: 85,
+      +   Conquest_has_sysUser: {
+      +     create: Conquest_has_sysUserCreateWithoutMatchInput | Conquest_has_sysUserUncheckedCreateWithoutMatchInput,
+      +     connectOrCreate: Conquest_has_sysUserCreateOrConnectWithoutMatchInput,
+      +     connect: Conquest_has_sysUserWhereUniqueInput
+      +   }
+        }
+      })
+
+Argument `Conquest_has_sysUser` is missing.
+2023-10-18T22:03:05.515Z - Circuit has been opened.
+2023-10-18T22:03:05.515Z - Circuit open. Using fallback.
+2023-10-18T22:03:35.527Z - Circuit is half open.

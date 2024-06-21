@@ -1,0 +1,152 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["views"]
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model location {
+  idlocation           Int                    @id @default(autoincrement())
+  locationDescription  String?                @db.VarChar(45)
+  prefix               String?                @db.VarChar(6)
+  location_has_sittype location_has_sittype[]
+  sitlocation          sitlocation[]
+}
+
+model sitlocation {
+  idsitLocation          Int               @id @default(autoincrement())
+  sitLocationDescription String?           @db.VarChar(45)
+  location_idlocation    Int
+  sitType_idsitType      Int
+  sitLocationPrice       Float?            @db.Float
+  location               location          @relation(fields: [location_idlocation], references: [idlocation], onDelete: NoAction, onUpdate: NoAction, map: "fk_sitLocation_location1")
+  sittype                sittype           @relation(fields: [sitType_idsitType], references: [idsitType], onDelete: NoAction, onUpdate: NoAction, map: "fk_sitLocation_sitType1")
+  sitlocationdate        sitlocationdate[]
+
+  @@index([location_idlocation], map: "fk_sitLocation_location1_idx")
+  @@index([sitType_idsitType], map: "fk_sitLocation_sitType1_idx")
+}
+
+model sitlocationdate {
+  idsitLocationDate                     Int                               @id @default(autoincrement())
+  sitLocationDate                       DateTime?                         @db.Date
+  sitLocation_idsitLocation             Int
+  sitLocationStatus_idsitLocationStatus Int
+  sitlocation                           sitlocation                       @relation(fields: [sitLocation_idsitLocation], references: [idsitLocation], onDelete: NoAction, onUpdate: NoAction, map: "fk_sitLocationDate_sitLocation1")
+  sitlocationstatus                     sitlocationstatus                 @relation(fields: [sitLocationStatus_idsitLocationStatus], references: [idsitLocationStatus], onDelete: NoAction, onUpdate: NoAction, map: "fk_sitLocationDate_sitLocationStatus1")
+  transaction_has_sitlocationdate       transaction_has_sitlocationdate[]
+
+  @@index([sitLocation_idsitLocation], map: "fk_sitLocationDate_sitLocation1_idx")
+  @@index([sitLocationStatus_idsitLocationStatus], map: "fk_sitLocationDate_sitLocationStatus1_idx")
+}
+
+model sitlocationentrancestatus {
+  idsitLocationEntranceStatus          Int                               @id @default(autoincrement())
+  sitLocationEntranceStatusDescription String?                           @db.VarChar(45)
+  transaction_has_sitlocationdate      transaction_has_sitlocationdate[]
+}
+
+model sitlocationstatus {
+  idsitLocationStatus          Int               @id @default(autoincrement())
+  sitLocationStatusDescription String?           @db.VarChar(45)
+  sitlocationdate              sitlocationdate[]
+}
+
+model sittype {
+  idsitType            Int                    @id @default(autoincrement())
+  sitTypeDescription   String?                @db.VarChar(45)
+  location_has_sittype location_has_sittype[]
+  sitlocation          sitlocation[]
+}
+
+model sysuser {
+  idsysuser                    Int           @id @default(autoincrement())
+  userName                     String?       @unique(map: "userName_UNIQUE") @db.VarChar(45)
+  userLastName                 String?       @db.VarChar(80)
+  sysUserDocument              String?       @db.VarChar(45)
+  email                        String?       @unique(map: "email_UNIQUE") @db.VarChar(80)
+  password                     String?       @db.VarChar(255)
+  tempPassword                 String?       @db.VarChar(255)
+  tempCode                     String?       @db.VarChar(255)
+  tempPasswordExpDate          DateTime?     @db.DateTime(0)
+  creationDate                 DateTime      @db.DateTime(0)
+  activationCode               String?       @db.VarChar(50)
+  activationCodeExpirationDate DateTime?     @db.DateTime(0)
+  userRole_iduserRole          Int           @default(2)
+  userStatus_iduserStatus      Int           @default(2)
+  userrole                     userrole      @relation(fields: [userRole_iduserRole], references: [iduserRole], onDelete: NoAction, onUpdate: NoAction, map: "fk_sysuser_userRole")
+  userstatus                   userstatus    @relation(fields: [userStatus_iduserStatus], references: [iduserStatus], onDelete: NoAction, onUpdate: NoAction, map: "fk_sysuser_userStatus1")
+  transaction                  transaction[]
+
+  @@index([userRole_iduserRole], map: "fk_sysuser_userRole_idx")
+  @@index([userStatus_iduserStatus], map: "fk_sysuser_userStatus1_idx")
+}
+
+model transaction {
+  idtransaction                   Int                               @id @default(autoincrement())
+  transactionDocument             String?                           @db.VarChar(45)
+  transactionToken                String?                           @db.VarChar(255)
+  transactionUserName             String?                           @db.VarChar(45)
+  transactionLastName             String?                           @db.VarChar(45)
+  transactionEmail                String?                           @db.VarChar(80)
+  transactionPhoneNumber          String?                           @db.VarChar(45)
+  transactionValue                Float?                            @db.Float
+  sysUser_idsysuser               Int?
+  transactionDate                 DateTime?                         @db.DateTime(0)
+  transactionUpdateTime           DateTime?                         @db.DateTime(0)
+  sysuser                         sysuser?                          @relation(fields: [sysUser_idsysuser], references: [idsysuser], onDelete: NoAction, onUpdate: NoAction, map: "fk_transaction_sysUser1")
+  transaction_has_sitlocationdate transaction_has_sitlocationdate[]
+  transactionstatus               transactionstatus[]
+
+  @@index([sysUser_idsysuser], map: "fk_transaction_sysUser1_idx")
+}
+
+model transaction_has_sitlocationdate {
+  transaction_idtransaction                             Int
+  sitLocationDate_idsitLocationDate                     Int
+  sitLocationEntranceStatus_idsitLocationEntranceStatus Int
+  sitlocationdate                                       sitlocationdate           @relation(fields: [sitLocationDate_idsitLocationDate], references: [idsitLocationDate], onDelete: NoAction, onUpdate: NoAction, map: "fk_transaction_has_sitLocationDate_sitLocationDate1")
+  sitlocationentrancestatus                             sitlocationentrancestatus @relation(fields: [sitLocationEntranceStatus_idsitLocationEntranceStatus], references: [idsitLocationEntranceStatus], onDelete: NoAction, onUpdate: NoAction, map: "fk_transaction_has_sitLocationDate_sitLocationEntranceStatus1")
+  transaction                                           transaction               @relation(fields: [transaction_idtransaction], references: [idtransaction], onDelete: NoAction, onUpdate: NoAction, map: "fk_transaction_has_sitLocationDate_transaction1")
+
+  @@id([transaction_idtransaction, sitLocationDate_idsitLocationDate])
+  @@index([sitLocationDate_idsitLocationDate], map: "fk_transaction_has_sitLocationDate_sitLocationDate1_idx")
+  @@index([sitLocationEntranceStatus_idsitLocationEntranceStatus], map: "fk_transaction_has_sitLocationDate_sitLocationEntranceStatu_idx")
+  @@index([transaction_idtransaction], map: "fk_transaction_has_sitLocationDate_transaction1_idx")
+}
+
+model transactionstatus {
+  idtransactionStatus          Int         @id @default(autoincrement())
+  transactionStatusDescription String?     @db.VarChar(45)
+  transaction_idtransaction    Int
+  transaction                  transaction @relation(fields: [transaction_idtransaction], references: [idtransaction], onDelete: NoAction, onUpdate: NoAction, map: "fk_transactionStatus_transaction1")
+
+  @@index([transaction_idtransaction], map: "fk_transactionStatus_transaction1_idx")
+}
+
+model userrole {
+  iduserRole      Int       @id @default(autoincrement())
+  roleDescription String?   @db.VarChar(45)
+  sysuser         sysuser[]
+}
+
+model userstatus {
+  iduserStatus          Int       @id @default(autoincrement())
+  userStatusDescription String?   @db.VarChar(45)
+  sysuser               sysuser[]
+}
+
+model location_has_sittype {
+  location_idlocation Int
+  sittype_idsitType   Int
+  price               Float?
+  location            location @relation(fields: [location_idlocation], references: [idlocation], onDelete: NoAction, onUpdate: NoAction, map: "fk_location_has_sittype_location1")
+  sittype             sittype  @relation(fields: [sittype_idsitType], references: [idsitType], onDelete: NoAction, onUpdate: NoAction, map: "fk_location_has_sittype_sittype1")
+
+  @@id([location_idlocation, sittype_idsitType])
+  @@index([location_idlocation], map: "fk_location_has_sittype_location1_idx")
+  @@index([sittype_idsitType], map: "fk_location_has_sittype_sittype1_idx")
+}

@@ -1,0 +1,290 @@
+2023-10-24T19:51:15.119Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T19:51:15.119Z - Circuit has been opened.
+2023-10-24T19:51:15.119Z - Circuit open. Using fallback.
+2023-10-24T19:53:44.110Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T19:53:44.110Z - Circuit has been opened.
+2023-10-24T19:53:44.110Z - Circuit open. Using fallback.
+2023-10-24T19:54:14.118Z - Circuit is half open.
+2023-10-24T19:54:40.159Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T19:54:40.159Z - Circuit has been opened.
+2023-10-24T19:54:40.159Z - Circuit open. Using fallback.
+2023-10-24T19:55:03.470Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T19:55:03.471Z - Circuit has been opened.
+2023-10-24T19:55:03.471Z - Circuit open. Using fallback.
+2023-10-24T19:55:33.478Z - Circuit is half open.
+2023-10-24T19:58:39.437Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T19:58:39.438Z - Circuit has been opened.
+2023-10-24T19:58:39.438Z - Circuit open. Using fallback.
+2023-10-24T19:59:31.405Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T19:59:31.406Z - Circuit has been opened.
+2023-10-24T19:59:31.406Z - Circuit open. Using fallback.
+2023-10-24T20:02:05.282Z - Action failed: ReferenceError: zombiesInWave is not defined
+2023-10-24T20:02:05.282Z - Circuit has been opened.
+2023-10-24T20:02:05.282Z - Circuit open. Using fallback.
+2023-10-24T20:02:22.015Z - Action failed: ReferenceError: zombiesInWave is not defined
+2023-10-24T20:02:22.015Z - Circuit has been opened.
+2023-10-24T20:02:22.015Z - Circuit open. Using fallback.
+2023-10-24T20:02:35.757Z - Circuit has been opened.
+2023-10-24T20:02:35.757Z - Action failed: ReferenceError: zombiesInWave is not defined
+2023-10-24T20:02:35.758Z - Circuit open. Using fallback.
+2023-10-24T20:03:03.896Z - Circuit has been opened.
+2023-10-24T20:03:03.897Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:03:03.897Z - Circuit open. Using fallback.
+2023-10-24T20:03:17.900Z - Circuit has been opened.
+2023-10-24T20:03:17.900Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:03:17.900Z - Circuit open. Using fallback.
+2023-10-24T20:03:42.436Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:03:42.436Z - Circuit has been opened.
+2023-10-24T20:03:42.436Z - Circuit open. Using fallback.
+2023-10-24T20:04:04.542Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:04:04.542Z - Circuit open. Using fallback.
+2023-10-24T20:04:04.542Z - Circuit has been opened.
+2023-10-24T20:05:07.944Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:05:07.944Z - Circuit has been opened.
+2023-10-24T20:05:07.944Z - Circuit open. Using fallback.
+2023-10-24T20:05:37.958Z - Circuit is half open.
+2023-10-24T20:13:55.139Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:13:55.139Z - Circuit has been opened.
+2023-10-24T20:13:55.139Z - Circuit open. Using fallback.
+2023-10-24T20:14:25.149Z - Circuit is half open.
+2023-10-24T20:17:53.517Z - Circuit has been opened.
+2023-10-24T20:17:53.517Z - Circuit open. Using fallback.
+2023-10-24T20:17:53.517Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:18:16.506Z - Circuit open. Using fallback.
+2023-10-24T20:18:23.528Z - Circuit is half open.
+2023-10-24T20:18:24.829Z - Circuit has been opened.
+2023-10-24T20:18:24.829Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:18:24.830Z - Circuit open. Using fallback.
+2023-10-24T20:19:08.530Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:19:08.530Z - Circuit has been opened.
+2023-10-24T20:19:08.530Z - Circuit open. Using fallback.
+2023-10-24T20:19:38.527Z - Circuit is half open.
+2023-10-24T20:19:59.288Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:19:59.289Z - Circuit has been opened.
+2023-10-24T20:19:59.289Z - Circuit open. Using fallback.
+2023-10-24T20:21:26.118Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:21:26.118Z - Circuit open. Using fallback.
+2023-10-24T20:21:26.118Z - Circuit has been opened.
+2023-10-24T20:21:56.134Z - Circuit is half open.
+2023-10-24T20:22:03.289Z - Circuit has been closed.
+2023-10-24T20:22:20.006Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:22:20.006Z - Circuit open. Using fallback.
+2023-10-24T20:22:20.006Z - Circuit has been opened.
+2023-10-24T20:22:50.009Z - Circuit is half open.
+2023-10-24T20:23:44.708Z - Circuit has been opened.
+2023-10-24T20:23:44.708Z - Circuit open. Using fallback.
+2023-10-24T20:23:44.708Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:24:14.711Z - Circuit is half open.
+2023-10-24T20:25:19.124Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:25:19.124Z - Circuit has been opened.
+2023-10-24T20:25:19.124Z - Circuit open. Using fallback.
+2023-10-24T20:26:04.073Z - Action failed: Error: Couldn't fetch zombies in wave
+2023-10-24T20:26:04.073Z - Circuit has been opened.
+2023-10-24T20:26:04.073Z - Circuit open. Using fallback.
+2023-10-24T20:26:46.568Z - Circuit has been opened.
+2023-10-24T20:26:46.569Z - Action failed: Error: Couldn't fetch zombies in wave
+Invalid `prisma.zombie_has_Wave.createMany()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\zombieHasWave.model.js:10:60
+
+   7 console.log(data)
+   8 try {
+   9     console.log('fdfddfd')
+→ 10     const zombiesInWave = await prisma.zombie_has_Wave.createMany(
+Unique constraint failed on the constraint: `PRIMARY`
+2023-10-24T20:26:46.569Z - Circuit open. Using fallback.
+2023-10-24T20:27:16.571Z - Circuit is half open.
+2023-10-24T22:52:43.413Z - Circuit has been opened.
+2023-10-24T22:52:43.413Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.Conquest.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:104:32
+
+  101 
+  102   ConquestStatus_idConquestStatus: 2, 
+  103 }
+→ 104 return await prisma.Conquest.update(
+Foreign key constraint failed on the field: `ConquestStatus_idConquestStatus`
+2023-10-24T22:52:43.413Z - Circuit open. Using fallback.
+2023-10-24T22:53:13.415Z - Circuit is half open.
+2023-10-24T22:54:00.149Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.conquest.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:104:32
+
+  101 
+  102   ConquestStatus_idConquestStatus: 2, 
+  103 }
+→ 104 return await prisma.conquest.update(
+Foreign key constraint failed on the field: `ConquestStatus_idConquestStatus`
+2023-10-24T22:54:00.149Z - Circuit has been opened.
+2023-10-24T22:54:00.150Z - Circuit open. Using fallback.
+2023-10-24T23:01:56.556Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:104:32
+
+  101 
+  102   ConquestStatus_idConquestStatus: 2, 
+  103 }
+→ 104 return await prisma.conquest.update({
+        data: {
+          ConquestStatus_idConquestStatus: 2
+        },
+        where: {
+      +   idConquest: Int
+        }
+      })
+
+Argument `idConquest` is missing.
+2023-10-24T23:01:56.557Z - Circuit open. Using fallback.
+2023-10-24T23:01:56.557Z - Circuit has been opened.
+2023-10-24T23:02:26.560Z - Circuit is half open.
+2023-10-24T23:06:11.900Z - Circuit has been opened.
+2023-10-24T23:06:11.900Z - Circuit open. Using fallback.
+2023-10-24T23:06:11.900Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.Match.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\match.model.js:57:29
+
+  54 
+  55   MatchEndDate: new Date(), 
+  56 }
+→ 57 return await prisma.Match.update({
+       data: {
+         MatchEndDate: new Date("2023-10-24T23:06:11.891Z")
+       },
+       where: {
+     +   idMatch: Int
+       }
+     })
+
+Argument `idMatch` is missing.
+2023-10-24T23:06:41.904Z - Circuit is half open.
+2023-10-24T23:10:28.046Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:44:28
+
+  41 
+  42   WaveStatus_idWaveStatus: 2, 
+  43 }
+→ 44 return await prisma.wave.update({
+       data: {
+         WaveStatus_idWaveStatus: 2
+       },
+       where: {
+     +   idWave: Int
+       }
+     })
+
+Argument `idWave` is missing.
+2023-10-24T23:10:28.046Z - Circuit has been opened.
+2023-10-24T23:10:28.046Z - Circuit open. Using fallback.
+2023-10-24T23:10:51.831Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:44:28
+
+  41 
+  42   WaveStatus_idWaveStatus: 2, 
+  43 }
+→ 44 return await prisma.wave.update({
+       data: {
+         WaveStatus_idWaveStatus: 2
+       },
+       where: {
+     +   idWave: Int
+       }
+     })
+
+Argument `idWave` is missing.
+2023-10-24T23:10:51.832Z - Circuit has been opened.
+2023-10-24T23:10:51.832Z - Circuit open. Using fallback.
+2023-10-24T23:11:04.469Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:44:28
+
+  41 
+  42   WaveStatus_idWaveStatus: 2, 
+  43 }
+→ 44 return await prisma.wave.update({
+       data: {
+         WaveStatus_idWaveStatus: 2
+       },
+       where: {
+     +   idWave: Int
+       }
+     })
+
+Argument `idWave` is missing.
+2023-10-24T23:11:04.469Z - Circuit has been opened.
+2023-10-24T23:11:04.469Z - Circuit open. Using fallback.
+2023-10-24T23:11:34.475Z - Circuit is half open.
+2023-10-24T23:13:50.276Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:44:28
+
+  41 
+  42   WaveStatus_idWaveStatus: 2, 
+  43 }
+→ 44 return await prisma.wave.update({
+       where: {
+     +   idWave: Int
+       },
+       data: {
+         WaveStatus_idWaveStatus: 2
+       }
+     })
+
+Argument `idWave` is missing.
+2023-10-24T23:13:50.277Z - Circuit open. Using fallback.
+2023-10-24T23:13:50.277Z - Circuit has been opened.
+2023-10-24T23:14:16.816Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.wave.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\wave.model.js:42:28
+
+  39 const data = {
+  40   WaveStatus_idWaveStatus: 2,
+  41 };
+→ 42 return await prisma.wave.update({
+       where: {
+     +   idWave: Int
+       },
+       data: {
+         WaveStatus_idWaveStatus: 2
+       }
+     })
+
+Argument `idWave` is missing.
+2023-10-24T23:14:16.817Z - Circuit open. Using fallback.
+2023-10-24T23:14:16.817Z - Circuit has been opened.
+2023-10-24T23:19:09.409Z - Circuit has been opened.
+2023-10-24T23:19:09.409Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.conquest.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:104:32
+
+  101 
+  102   ConquestStatus_idConquestStatus: 2, 
+  103 }
+→ 104 return await prisma.conquest.update(
+Foreign key constraint failed on the field: `ConquestStatus_idConquestStatus`
+2023-10-24T23:19:09.409Z - Circuit open. Using fallback.
+2023-10-24T23:19:39.425Z - Circuit is half open.
+2023-10-24T23:20:08.969Z - Circuit has been opened.
+2023-10-24T23:20:08.970Z - Circuit open. Using fallback.
+2023-10-24T23:20:08.970Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.conquest.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:104:32
+
+  101 
+  102   ConquestStatus_idConquestStatus: 2, 
+  103 }
+→ 104 return await prisma.conquest.update(
+Foreign key constraint failed on the field: `ConquestStatus_idConquestStatus`
+2023-10-24T23:20:38.973Z - Circuit is half open.
+2023-10-24T23:20:48.072Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.conquest.update()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\conquest.model.js:106:32
+
+  103 
+  104   ConquestStatus_idConquestStatus: 2, 
+  105 }
+→ 106 return await prisma.conquest.update(
+Foreign key constraint failed on the field: `ConquestStatus_idConquestStatus`
+2023-10-24T23:20:48.072Z - Circuit has been opened.
+2023-10-24T23:20:48.072Z - Circuit open. Using fallback.
+2023-10-24T23:21:18.079Z - Circuit is half open.

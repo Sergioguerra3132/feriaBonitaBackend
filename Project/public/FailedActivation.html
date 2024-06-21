@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Shapiro+75&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: relative;
+      overflow: hidden; /* Prevents scrollbars from appearing when not necessary */
+    }
+    .main-content {
+      background-color: #ffffff;
+      width: 100%;
+      max-width: 600px; /* Limits the maximum width of the container */
+    }
+    .logo {
+      width: 100%; /* Makes the logo responsive */
+      max-width: 300px; /* Limits how large the logo can grow */
+      height: auto; /* Maintains aspect ratio */
+    }
+    .footer-image {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      width: 50%; /* Scales based on the width of the viewport */
+      height: auto; /* Maintains the aspect ratio */
+      max-width: 200px; /* Limits how large the image can grow */
+    }
+    @media (max-width: 768px) { /* Adjustments for smaller screens */
+      .logo, .footer-image {
+        width: 50%; /* Larger percentage of the screen on small devices */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <table align="center" width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" style="padding: 10px 0;">
+          <table border="0" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border-radius:10px; padding:10%;">
+            <tr>
+              <td align="center">
+                <img src="https://texelbit.com/Images/logo_steel_shock.png" alt="Steel Shock Logo" class="logo">
+                <h1 style="margin:10; font-family: 'Shapiro 75', sans-serif; font-size: 4vw; color:#ff0000;">Invalid Code</h1>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <img src="https://texelbit.com/Images/SadBot.png" alt="Descriptive Alt Text" class="footer-image">
+</body>
+</html>

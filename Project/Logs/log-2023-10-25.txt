@@ -1,0 +1,162 @@
+2023-10-25T10:56:40.013Z - Circuit has been opened.
+2023-10-25T10:56:40.013Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findMany()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\ranking.model.js:8:45
+
+  5 
+  6 exports.getGeneralRanking = async () => {
+  7 
+→ 8     const topPlayers = await prisma.sysUser.findMany(
+Unknown nested field 'Zombie_has_Wave' for operation findManysysUser does not match any query.
+2023-10-25T10:56:40.013Z - Circuit open. Using fallback.
+2023-10-25T10:56:43.214Z - Circuit open. Using fallback.
+2023-10-25T10:57:10.014Z - Circuit is half open.
+2023-10-25T11:06:18.429Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.sysUser.findMany()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\ranking.model.js:7:45
+
+  4 });
+  5 
+  6 exports.getGeneralRanking = async () => {
+→ 7     const topPlayers = await prisma.sysUser.findMany({
+          where: {
+            Conquest_has_sysUser: {
+              Conquest: {
+              ~~~~~~~~
+                IsMainConquest: 1,
+                ConquestStatus_idConquestStatus: 2
+              },
+        ?     every?: Conquest_has_sysUserWhereInput,
+        ?     some?: Conquest_has_sysUserWhereInput,
+        ?     none?: Conquest_has_sysUserWhereInput
+            }
+          },
+          select: {
+            idsysuser: true,
+            userName: true,
+            Conquest_has_sysUser: {
+              select: {
+                Match: {
+                  select: {
+                    Wave: {
+                      select: {
+                        Zombie_has_Wave: {
+                          select: {
+                            Points: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Unknown argument `Conquest`. Available options are listed in green.
+2023-10-25T11:06:18.429Z - Circuit open. Using fallback.
+2023-10-25T11:06:18.429Z - Circuit has been opened.
+2023-10-25T11:06:48.440Z - Circuit is half open.
+2023-10-25T11:08:30.802Z - Circuit open. Using fallback.
+2023-10-25T11:08:30.802Z - Circuit has been opened.
+2023-10-25T11:08:30.802Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findMany()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\ranking.model.js:7:45
+
+  4 });
+  5 
+  6 exports.getGeneralRanking = async () => {
+→ 7     const topPlayers = await prisma.sysUser.findMany(
+Unknown nested field 'Matches' for operation Conquest does not match any query.
+2023-10-25T11:09:00.808Z - Circuit is half open.
+2023-10-25T11:10:11.581Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findMany()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\ranking.model.js:7:45
+
+  4 });
+  5 
+  6 exports.getGeneralRanking = async () => {
+→ 7     const topPlayers = await prisma.sysUser.findMany(
+Unknown nested field 'Waves' for operation Conquest does not match any query.
+2023-10-25T11:10:11.582Z - Circuit has been opened.
+2023-10-25T11:10:11.582Z - Circuit open. Using fallback.
+2023-10-25T11:10:41.590Z - Circuit is half open.
+2023-10-25T11:11:52.254Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findMany()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\ranking.model.js:7:45
+
+  4 });
+  5 
+  6 exports.getGeneralRanking = async () => {
+→ 7     const topPlayers = await prisma.sysUser.findMany(
+Unknown nested field 'Matches' for operation Conquest does not match any query.
+2023-10-25T11:11:52.254Z - Circuit has been opened.
+2023-10-25T11:11:52.254Z - Circuit open. Using fallback.
+2023-10-25T11:12:22.264Z - Circuit is half open.
+2023-10-25T11:13:25.721Z - Action failed: PrismaClientUnknownRequestError: 
+Invalid `prisma.sysUser.findMany()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\ranking.model.js:7:45
+
+  4 });
+  5 
+  6 exports.getGeneralRanking = async () => {
+→ 7     const topPlayers = await prisma.sysUser.findMany(
+Unknown nested field 'Matches' for operation Conquest does not match any query.
+2023-10-25T11:13:25.721Z - Circuit has been opened.
+2023-10-25T11:13:25.721Z - Circuit open. Using fallback.
+2023-10-25T11:13:55.726Z - Circuit is half open.
+2023-10-25T11:14:54.222Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.$executeRaw()` invocation:
+
+
+Raw query failed. Code: `1146`. Message: `Table 'TrueCity.Matches' doesn't exist`
+2023-10-25T11:14:54.222Z - Circuit has been opened.
+2023-10-25T11:14:54.222Z - Circuit open. Using fallback.
+2023-10-25T11:15:24.233Z - Circuit is half open.
+2023-10-25T11:16:05.980Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.$executeRaw()` invocation:
+
+
+Raw query failed. Code: `1064`. Message: `You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Match m ON c.idConquest = m.Conquest_idConquest
+JOIN Wave w ON m.idMatch = w.Mat' at line 6`
+2023-10-25T11:16:05.980Z - Circuit open. Using fallback.
+2023-10-25T11:16:05.980Z - Circuit has been opened.
+2023-10-25T11:16:35.980Z - Circuit is half open.
+2023-10-25T11:16:53.644Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.$executeRaw()` invocation:
+
+
+Raw query failed. Code: `1064`. Message: `You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Match m ON c.idConquest = m.Conquest_has_sysUser_IDConquest_has_sysUser
+JOIN Wav' at line 6`
+2023-10-25T11:16:53.645Z - Circuit has been opened.
+2023-10-25T11:16:53.645Z - Circuit open. Using fallback.
+2023-10-25T11:17:23.643Z - Circuit is half open.
+2023-10-25T11:38:58.985Z - Action failed: TypeError: Cannot read properties of undefined (reading 'findMany')
+2023-10-25T11:38:58.986Z - Circuit has been opened.
+2023-10-25T11:38:58.986Z - Circuit open. Using fallback.
+2023-10-25T11:39:07.495Z - Circuit open. Using fallback.
+2023-10-25T11:39:28.994Z - Circuit is half open.
+2023-10-25T11:39:39.715Z - Circuit open. Using fallback.
+2023-10-25T11:39:39.716Z - Circuit has been opened.
+2023-10-25T11:39:39.716Z - Action failed: TypeError: Cannot read properties of undefined (reading 'findMany')
+2023-10-25T23:06:58.800Z - Action failed: TypeError: Cannot read properties of undefined (reading 'findMany')
+2023-10-25T23:06:58.800Z - Circuit has been opened.
+2023-10-25T23:06:58.800Z - Circuit open. Using fallback.
+2023-10-25T23:07:29.543Z - Action failed: TypeError: Cannot read properties of undefined (reading 'findMany')
+2023-10-25T23:07:29.544Z - Circuit has been opened.
+2023-10-25T23:07:29.544Z - Circuit open. Using fallback.
+2023-10-25T23:07:59.544Z - Circuit is half open.
+2023-10-25T23:57:50.777Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.PlayerTotalScores.findMany()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\ranking.model.js:8:52
+
+  5 const MySQLConnector = require('../middlewares/MySqlConnector')
+  6 
+  7 exports.getGeneralRanking = async () => {
+→ 8     const results = await prisma.PlayerTotalScores.findMany(
+Authentication failed against database server at `5.183.8.172`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `5.183.8.172`.
+2023-10-25T23:57:50.777Z - Circuit has been opened.
+2023-10-25T23:57:50.777Z - Circuit open. Using fallback.

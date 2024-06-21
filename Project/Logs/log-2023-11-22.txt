@@ -1,0 +1,134 @@
+2023-11-22T21:05:35.334Z - Circuit has been opened.
+2023-11-22T21:05:35.334Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:05:35.334Z - Circuit open. Using fallback.
+2023-11-22T21:06:05.344Z - Circuit is half open.
+2023-11-22T21:10:22.056Z - Circuit has been opened.
+2023-11-22T21:10:22.057Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:10:22.057Z - Circuit open. Using fallback.
+2023-11-22T21:13:30.341Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:13:30.341Z - Circuit has been opened.
+2023-11-22T21:13:30.341Z - Circuit open. Using fallback.
+2023-11-22T21:13:40.359Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:13:40.359Z - Circuit has been opened.
+2023-11-22T21:13:40.359Z - Circuit open. Using fallback.
+2023-11-22T21:14:10.431Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:14:10.431Z - Circuit has been opened.
+2023-11-22T21:14:10.431Z - Circuit open. Using fallback.
+2023-11-22T21:14:40.437Z - Circuit is half open.
+2023-11-22T21:14:52.304Z - Circuit has been closed.
+2023-11-22T21:23:52.497Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:23:52.498Z - Circuit has been opened.
+2023-11-22T21:23:52.498Z - Circuit open. Using fallback.
+2023-11-22T21:24:04.071Z - Circuit open. Using fallback.
+2023-11-22T21:24:08.139Z - Circuit open. Using fallback.
+2023-11-22T21:24:09.977Z - Circuit open. Using fallback.
+2023-11-22T21:24:16.726Z - Circuit open. Using fallback.
+2023-11-22T21:24:22.505Z - Circuit is half open.
+2023-11-22T21:25:23.325Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2023-11-22T21:25:23.326Z - Circuit has been opened.
+2023-11-22T21:25:23.326Z - Circuit open. Using fallback.
+2023-11-22T21:25:48.894Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:25:48.895Z - Circuit has been opened.
+2023-11-22T21:25:48.895Z - Circuit open. Using fallback.
+2023-11-22T21:25:53.325Z - Circuit is half open.
+2023-11-22T21:26:18.899Z - Circuit is half open.
+2023-11-22T21:30:27.721Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2023-11-22T21:30:27.722Z - Circuit has been opened.
+2023-11-22T21:30:27.722Z - Circuit open. Using fallback.
+2023-11-22T21:30:57.732Z - Circuit is half open.
+2023-11-22T21:31:06.183Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2023-11-22T21:31:06.183Z - Circuit has been opened.
+2023-11-22T21:31:06.183Z - Circuit open. Using fallback.
+2023-11-22T21:31:36.196Z - Circuit is half open.
+2023-11-22T21:31:54.978Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2023-11-22T21:31:54.978Z - Circuit has been opened.
+2023-11-22T21:31:54.978Z - Circuit open. Using fallback.
+2023-11-22T21:32:07.145Z - Circuit open. Using fallback.
+2023-11-22T21:32:24.984Z - Circuit is half open.
+2023-11-22T21:36:12.135Z - Action failed: Error: Timed out after 10000ms
+2023-11-22T21:36:12.136Z - Circuit has been opened.
+2023-11-22T21:36:12.136Z - Circuit open. Using fallback.
+2023-11-22T21:37:06.810Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2023-11-22T21:37:06.810Z - Circuit has been opened.
+2023-11-22T21:37:06.810Z - Circuit open. Using fallback.
+2023-11-22T21:40:58.606Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2023-11-22T21:40:58.606Z - Circuit open. Using fallback.
+2023-11-22T21:40:58.606Z - Circuit has been opened.
+2023-11-22T21:41:07.933Z - Circuit open. Using fallback.
+2023-11-22T21:41:15.810Z - Circuit open. Using fallback.
+2023-11-22T21:41:28.616Z - Circuit is half open.
+2023-11-22T21:41:34.037Z - Circuit has been opened.
+2023-11-22T21:41:34.038Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\pc8\Documents\GitHub\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Can't reach database server at `5.183.8.172`:`3306`
+
+Please make sure your database server is running at `5.183.8.172`:`3306`.
+2023-11-22T21:41:34.038Z - Circuit open. Using fallback.
+2023-11-22T21:41:48.834Z - Circuit open. Using fallback.
+2023-11-22T21:41:50.562Z - Circuit open. Using fallback.

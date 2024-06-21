@@ -1,0 +1,122 @@
+2023-09-18T22:08:12.613Z - Circuit open. Using fallback.
+2023-09-18T22:08:12.612Z - Circuit has been opened.
+2023-09-18T22:08:12.613Z - Action failed.
+2023-09-18T22:09:06.967Z - Action failed.
+2023-09-18T22:09:06.967Z - Circuit open. Using fallback.
+2023-09-18T22:09:06.968Z - Circuit has been opened.
+2023-09-18T22:09:26.565Z - Action failed.
+2023-09-18T22:09:26.565Z - Circuit open. Using fallback.
+2023-09-18T22:09:26.565Z - Circuit has been opened.
+2023-09-18T22:09:54.087Z - Action failed.
+2023-09-18T22:09:54.088Z - Circuit has been opened.
+2023-09-18T22:09:54.088Z - Circuit open. Using fallback.
+2023-09-18T22:10:09.083Z - Action failed.
+2023-09-18T22:10:09.083Z - Circuit has been opened.
+2023-09-18T22:10:09.083Z - Circuit open. Using fallback.
+2023-09-18T22:10:39.077Z - Circuit is half open.
+2023-09-18T22:11:01.138Z - Action failed.
+2023-09-18T22:11:01.139Z - Circuit open. Using fallback.
+2023-09-18T22:11:01.139Z - Circuit has been opened.
+2023-09-18T22:11:26.510Z - Action failed.
+2023-09-18T22:11:26.510Z - Circuit open. Using fallback.
+2023-09-18T22:11:26.510Z - Circuit has been opened.
+2023-09-18T22:12:09.900Z - Action failed.
+2023-09-18T22:12:09.901Z - Circuit has been opened.
+2023-09-18T22:12:09.901Z - Circuit open. Using fallback.
+2023-09-18T22:12:39.728Z - Action failed.
+2023-09-18T22:12:39.729Z - Circuit has been opened.
+2023-09-18T22:12:39.729Z - Circuit open. Using fallback.
+2023-09-18T22:12:54.583Z - Action failed.
+2023-09-18T22:12:54.583Z - Circuit open. Using fallback.
+2023-09-18T22:12:54.583Z - Circuit has been opened.
+2023-09-18T22:13:43.037Z - Action failed.
+2023-09-18T22:13:43.038Z - Circuit has been opened.
+2023-09-18T22:13:43.038Z - Circuit open. Using fallback.
+2023-09-18T22:14:08.448Z - Circuit has been opened.
+2023-09-18T22:14:08.448Z - Circuit open. Using fallback.
+2023-09-18T22:14:08.449Z - Action failed.
+2023-09-18T22:14:35.063Z - Action failed.
+2023-09-18T22:14:35.063Z - Circuit has been opened.
+2023-09-18T22:14:35.064Z - Circuit open. Using fallback.
+2023-09-18T22:15:05.069Z - Circuit is half open.
+2023-09-18T22:15:27.897Z - Action failed.
+2023-09-18T22:15:27.898Z - Circuit open. Using fallback.
+2023-09-18T22:15:27.898Z - Circuit has been opened.
+2023-09-18T22:15:49.648Z - Circuit has been opened.
+2023-09-18T22:15:49.648Z - Action failed.
+2023-09-18T22:15:49.648Z - Circuit open. Using fallback.
+2023-09-18T22:16:19.647Z - Circuit is half open.
+2023-09-18T22:17:15.294Z - Action failed.
+2023-09-18T22:17:15.295Z - Circuit has been opened.
+2023-09-18T22:17:15.295Z - Circuit open. Using fallback.
+2023-09-18T22:17:39.692Z - Action failed.
+2023-09-18T22:17:39.693Z - Circuit has been opened.
+2023-09-18T22:17:39.693Z - Circuit open. Using fallback.
+2023-09-18T22:17:53.390Z - Circuit open. Using fallback.
+2023-09-18T22:17:53.390Z - Circuit has been opened.
+2023-09-18T22:17:53.391Z - Action failed.
+2023-09-18T22:18:50.000Z - Action failed.
+2023-09-18T22:18:50.001Z - Circuit has been opened.
+2023-09-18T22:18:50.001Z - Circuit open. Using fallback.
+2023-09-18T22:19:20.004Z - Circuit is half open.
+2023-09-18T22:20:10.845Z - Circuit has been opened.
+2023-09-18T22:20:10.846Z - Action failed. [object Object]
+2023-09-18T22:20:10.846Z - Circuit open. Using fallback.
+2023-09-18T22:20:40.847Z - Circuit is half open.
+2023-09-18T22:22:55.629Z - Action failed: ReferenceError: Cannot access 'user' before initialization
+2023-09-18T22:22:55.630Z - Circuit has been opened.
+2023-09-18T22:22:55.630Z - Circuit open. Using fallback.
+2023-09-18T22:23:25.629Z - Circuit is half open.
+2023-09-18T22:24:36.163Z - Circuit open. Using fallback.
+2023-09-18T22:24:36.164Z - Circuit has been opened.
+2023-09-18T22:24:36.164Z - Action failed: ReferenceError: Cannot access 'user' before initialization
+2023-09-18T22:25:06.164Z - Circuit is half open.
+2023-09-18T22:25:17.375Z - Circuit has been opened.
+2023-09-18T22:25:17.376Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Value out of range for the type. The column `activationCodeLoginWalletExpirationDate` contained an invalid datetime value with either day or month set to zero.
+2023-09-18T22:25:17.376Z - Circuit open. Using fallback.
+2023-09-18T22:25:47.376Z - Circuit is half open.
+2023-09-18T22:26:31.683Z - Circuit has been opened.
+2023-09-18T22:26:31.683Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Value out of range for the type. The column `activationCodeLoginWalletExpirationDate` contained an invalid datetime value with either day or month set to zero.
+2023-09-18T22:26:31.683Z - Circuit open. Using fallback.
+2023-09-18T22:27:01.683Z - Circuit is half open.
+2023-09-18T22:27:34.772Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Value out of range for the type. The column `activationCodeLoginWalletExpirationDate` contained an invalid datetime value with either day or month set to zero.
+2023-09-18T22:27:34.772Z - Circuit has been opened.
+2023-09-18T22:27:34.773Z - Circuit open. Using fallback.
+2023-09-18T22:28:04.772Z - Circuit is half open.
+2023-09-18T22:28:44.051Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique(
+Value out of range for the type. The column `activationCodeLoginWalletExpirationDate` contained an invalid datetime value with either day or month set to zero.
+2023-09-18T22:28:44.051Z - Circuit has been opened.
+2023-09-18T22:28:44.051Z - Circuit open. Using fallback.
+2023-09-18T22:29:14.046Z - Circuit is half open.
+2023-09-18T22:32:34.805Z - Circuit has been closed.

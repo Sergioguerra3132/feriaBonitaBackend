@@ -1,0 +1,398 @@
+2023-10-26T00:37:31.520Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest_has_sysUser.findFirst()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:10:55
+
+   7 exports.createMatch = async (data) => {
+   8 
+   9    // First, find the IDConquest_has_sysUser using sysUser_idsysuser and conquestId
+→ 10    const conquest = await prisma.conquest_has_sysUser.findFirst({
+          where: {
+            sysUser_idsysuser: undefined,
+            conquestId: 21,
+            ~~~~~~~~~~
+        ?   AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+        ?   OR?: Conquest_has_sysUserWhereInput[],
+        ?   NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+        ?   IDConquest_has_sysUser?: IntFilter | Int,
+        ?   Conquest_idConquest?: IntFilter | Int,
+        ?   owner?: IntNullableFilter | Int | Null,
+        ?   registerDate?: DateTimeNullableFilter | DateTime | Null,
+        ?   Conquest?: ConquestRelationFilter | ConquestWhereInput,
+        ?   sysUser?: SysUserRelationFilter | sysUserWhereInput,
+        ?   Match?: MatchListRelationFilter
+          },
+          select: {
+            IDConquest_has_sysUser: true
+          }
+        })
+
+Unknown argument `conquestId`. Did you mean `Conquest`? Available options are marked with ?.
+2023-10-26T00:37:31.520Z - Circuit open. Using fallback.
+2023-10-26T00:37:31.520Z - Circuit has been opened.
+2023-10-26T00:38:01.522Z - Circuit is half open.
+2023-10-26T00:38:13.647Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest_has_sysUser.findFirst()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:10:55
+
+   7 exports.createMatch = async (data) => {
+   8 
+   9    // First, find the IDConquest_has_sysUser using sysUser_idsysuser and conquestId
+→ 10    const conquest = await prisma.conquest_has_sysUser.findFirst({
+          where: {
+            sysUser_idsysuser: undefined,
+            conquestId: 21,
+            ~~~~~~~~~~
+        ?   AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+        ?   OR?: Conquest_has_sysUserWhereInput[],
+        ?   NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+        ?   IDConquest_has_sysUser?: IntFilter | Int,
+        ?   Conquest_idConquest?: IntFilter | Int,
+        ?   owner?: IntNullableFilter | Int | Null,
+        ?   registerDate?: DateTimeNullableFilter | DateTime | Null,
+        ?   Conquest?: ConquestRelationFilter | ConquestWhereInput,
+        ?   sysUser?: SysUserRelationFilter | sysUserWhereInput,
+        ?   Match?: MatchListRelationFilter
+          },
+          select: {
+            IDConquest_has_sysUser: true
+          }
+        })
+
+Unknown argument `conquestId`. Did you mean `Conquest`? Available options are marked with ?.
+2023-10-26T00:38:13.647Z - Circuit has been opened.
+2023-10-26T00:38:13.647Z - Circuit open. Using fallback.
+2023-10-26T00:38:43.646Z - Circuit is half open.
+2023-10-26T00:39:24.535Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest_has_sysUser.findFirst()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:10:55
+
+   7 exports.createMatch = async (data) => {
+   8 
+   9    // First, find the IDConquest_has_sysUser using sysUser_idsysuser and conquestId
+→ 10    const conquest = await prisma.conquest_has_sysUser.findFirst({
+          where: {
+            sysUser_idsysuser: undefined,
+            conquestId: 21,
+            ~~~~~~~~~~
+        ?   AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+        ?   OR?: Conquest_has_sysUserWhereInput[],
+        ?   NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+        ?   IDConquest_has_sysUser?: IntFilter | Int,
+        ?   Conquest_idConquest?: IntFilter | Int,
+        ?   owner?: IntNullableFilter | Int | Null,
+        ?   registerDate?: DateTimeNullableFilter | DateTime | Null,
+        ?   Conquest?: ConquestRelationFilter | ConquestWhereInput,
+        ?   sysUser?: SysUserRelationFilter | sysUserWhereInput,
+        ?   Match?: MatchListRelationFilter
+          },
+          select: {
+            IDConquest_has_sysUser: true
+          }
+        })
+
+Unknown argument `conquestId`. Did you mean `Conquest`? Available options are marked with ?.
+2023-10-26T00:39:24.536Z - Circuit has been opened.
+2023-10-26T00:39:24.536Z - Circuit open. Using fallback.
+2023-10-26T00:39:54.539Z - Circuit is half open.
+2023-10-26T00:40:10.575Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest_has_sysUser.findFirst()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:11:55
+
+   8 
+   9 console.log(data)
+  10  // First, find the IDConquest_has_sysUser using sysUser_idsysuser and conquestId
+→ 11  const conquest = await prisma.conquest_has_sysUser.findFirst({
+        where: {
+          sysUser_idsysuser: undefined,
+          conquestId: 21,
+          ~~~~~~~~~~
+      ?   AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+      ?   OR?: Conquest_has_sysUserWhereInput[],
+      ?   NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+      ?   IDConquest_has_sysUser?: IntFilter | Int,
+      ?   Conquest_idConquest?: IntFilter | Int,
+      ?   owner?: IntNullableFilter | Int | Null,
+      ?   registerDate?: DateTimeNullableFilter | DateTime | Null,
+      ?   Conquest?: ConquestRelationFilter | ConquestWhereInput,
+      ?   sysUser?: SysUserRelationFilter | sysUserWhereInput,
+      ?   Match?: MatchListRelationFilter
+        },
+        select: {
+          IDConquest_has_sysUser: true
+        }
+      })
+
+Unknown argument `conquestId`. Did you mean `Conquest`? Available options are marked with ?.
+2023-10-26T00:40:10.576Z - Circuit has been opened.
+2023-10-26T00:40:10.576Z - Circuit open. Using fallback.
+2023-10-26T00:40:42.110Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.conquest_has_sysUser.findFirst()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:11:55
+
+   8 
+   9   
+  10 // First, find the IDConquest_has_sysUser using sysUser_idsysuser and conquestId
+→ 11 const conquest = await prisma.conquest_has_sysUser.findFirst({
+       where: {
+         sysUser_idsysuser: undefined,
+         conquestId: 21,
+         ~~~~~~~~~~
+     ?   AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?   OR?: Conquest_has_sysUserWhereInput[],
+     ?   NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?   IDConquest_has_sysUser?: IntFilter | Int,
+     ?   Conquest_idConquest?: IntFilter | Int,
+     ?   owner?: IntNullableFilter | Int | Null,
+     ?   registerDate?: DateTimeNullableFilter | DateTime | Null,
+     ?   Conquest?: ConquestRelationFilter | ConquestWhereInput,
+     ?   sysUser?: SysUserRelationFilter | sysUserWhereInput,
+     ?   Match?: MatchListRelationFilter
+       },
+       select: {
+         IDConquest_has_sysUser: true
+       }
+     })
+
+Unknown argument `conquestId`. Did you mean `Conquest`? Available options are marked with ?.
+2023-10-26T00:40:42.111Z - Circuit has been opened.
+2023-10-26T00:40:42.111Z - Circuit open. Using fallback.
+2023-10-26T00:41:12.113Z - Circuit is half open.
+2023-10-26T00:41:55.673Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.match.create()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:27:29
+
+  24  return new error("Conquest Not Exist");
+  25 }
+  26 
+→ 27 return await prisma.match.create({
+       data: {
+         MatchDate: "2023-10-26T00:41:55.661Z",
+         Conquest_has_sysUser: {
+           connect: {
+             IDConquest_has_sysUser: undefined,
+     ?       AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?       OR?: Conquest_has_sysUserWhereInput[],
+     ?       NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?       Conquest_idConquest?: IntFilter | Int,
+     ?       sysUser_idsysuser?: IntFilter | Int,
+     ?       owner?: IntNullableFilter | Int | Null,
+     ?       registerDate?: DateTimeNullableFilter | DateTime | Null,
+     ?       Conquest?: ConquestRelationFilter | ConquestWhereInput,
+     ?       sysUser?: SysUserRelationFilter | sysUserWhereInput,
+     ?       Match?: MatchListRelationFilter
+           }
+         }
+       }
+     })
+
+Argument `connect` of type Conquest_has_sysUserWhereUniqueInput needs at least one of `IDConquest_has_sysUser` arguments. Available options are marked with ?.
+2023-10-26T00:41:55.673Z - Circuit has been opened.
+2023-10-26T00:41:55.674Z - Circuit open. Using fallback.
+2023-10-26T00:42:25.677Z - Circuit is half open.
+2023-10-26T00:42:38.674Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.match.create()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:27:29
+
+  24  return new error("Conquest Not Exist");
+  25 }
+  26 console.log(conquest)
+→ 27 return await prisma.match.create({
+       data: {
+         MatchDate: "2023-10-26T00:42:38.662Z",
+         Conquest_has_sysUser: {
+           connect: {
+             IDConquest_has_sysUser: undefined,
+     ?       AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?       OR?: Conquest_has_sysUserWhereInput[],
+     ?       NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?       Conquest_idConquest?: IntFilter | Int,
+     ?       sysUser_idsysuser?: IntFilter | Int,
+     ?       owner?: IntNullableFilter | Int | Null,
+     ?       registerDate?: DateTimeNullableFilter | DateTime | Null,
+     ?       Conquest?: ConquestRelationFilter | ConquestWhereInput,
+     ?       sysUser?: SysUserRelationFilter | sysUserWhereInput,
+     ?       Match?: MatchListRelationFilter
+           }
+         }
+       }
+     })
+
+Argument `connect` of type Conquest_has_sysUserWhereUniqueInput needs at least one of `IDConquest_has_sysUser` arguments. Available options are marked with ?.
+2023-10-26T00:42:38.675Z - Circuit open. Using fallback.
+2023-10-26T00:42:38.675Z - Circuit has been opened.
+2023-10-26T00:43:14.633Z - Circuit has been opened.
+2023-10-26T00:43:14.634Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.match.create()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\match.model.js:27:29
+
+  24  return new error("Conquest Not Exist");
+  25 }
+  26 console.log("Conquest id "+conquest.IDConquest_has_sysUser)
+→ 27 return await prisma.match.create({
+       data: {
+         MatchDate: "2023-10-26T00:43:14.622Z",
+         Conquest_has_sysUser: {
+           connect: {
+             IDConquest_has_sysUser: undefined,
+     ?       AND?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?       OR?: Conquest_has_sysUserWhereInput[],
+     ?       NOT?: Conquest_has_sysUserWhereInput | Conquest_has_sysUserWhereInput[],
+     ?       Conquest_idConquest?: IntFilter | Int,
+     ?       sysUser_idsysuser?: IntFilter | Int,
+     ?       owner?: IntNullableFilter | Int | Null,
+     ?       registerDate?: DateTimeNullableFilter | DateTime | Null,
+     ?       Conquest?: ConquestRelationFilter | ConquestWhereInput,
+     ?       sysUser?: SysUserRelationFilter | sysUserWhereInput,
+     ?       Match?: MatchListRelationFilter
+           }
+         }
+       }
+     })
+
+Argument `connect` of type Conquest_has_sysUserWhereUniqueInput needs at least one of `IDConquest_has_sysUser` arguments. Available options are marked with ?.
+2023-10-26T00:43:14.634Z - Circuit open. Using fallback.
+2023-10-26T16:38:35.088Z - Circuit has been opened.
+2023-10-26T16:38:35.089Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique({
+         where: {
+           email: undefined,
+       ?   idsysuser?: Int,
+       ?   userName?: String,
+       ?   walletAddress?: String,
+       ?   AND?: sysUserWhereInput | sysUserWhereInput[],
+       ?   OR?: sysUserWhereInput[],
+       ?   NOT?: sysUserWhereInput | sysUserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   tempPassword?: StringNullableFilter | String | Null,
+       ?   tempCode?: StringNullableFilter | String | Null,
+       ?   tempPasswordExpDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   creationDate?: DateTimeFilter | DateTime,
+       ?   codeLoginWallet?: StringNullableFilter | String | Null,
+       ?   activationCodeLoginWalletExpirationDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   activationCode?: StringNullableFilter | String | Null,
+       ?   activationCodeExpirationDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   userRole_iduserRole?: IntFilter | Int,
+       ?   userStatus_iduserStatus?: IntFilter | Int,
+       ?   Conquest_has_sysUser?: Conquest_has_sysUserListRelationFilter,
+       ?   code?: CodeListRelationFilter,
+       ?   userRole?: UserRoleRelationFilter | userRoleWhereInput,
+       ?   userStatus?: UserStatusRelationFilter | userStatusWhereInput,
+       ?   sysUser_has_Guild?: SysUser_has_GuildListRelationFilter,
+       ?   userInventory?: UserInventoryListRelationFilter
+         }
+       })
+
+Argument `where` of type sysUserWhereUniqueInput needs at least one of `idsysuser`, `userName`, `email` or `walletAddress` arguments. Available options are marked with ?.
+2023-10-26T16:38:35.089Z - Circuit open. Using fallback.
+2023-10-26T16:39:05.096Z - Circuit is half open.
+2023-10-26T16:40:14.883Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique({
+         where: {
+           email: undefined,
+       ?   idsysuser?: Int,
+       ?   userName?: String,
+       ?   walletAddress?: String,
+       ?   AND?: sysUserWhereInput | sysUserWhereInput[],
+       ?   OR?: sysUserWhereInput[],
+       ?   NOT?: sysUserWhereInput | sysUserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   tempPassword?: StringNullableFilter | String | Null,
+       ?   tempCode?: StringNullableFilter | String | Null,
+       ?   tempPasswordExpDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   creationDate?: DateTimeFilter | DateTime,
+       ?   codeLoginWallet?: StringNullableFilter | String | Null,
+       ?   activationCodeLoginWalletExpirationDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   activationCode?: StringNullableFilter | String | Null,
+       ?   activationCodeExpirationDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   userRole_iduserRole?: IntFilter | Int,
+       ?   userStatus_iduserStatus?: IntFilter | Int,
+       ?   Conquest_has_sysUser?: Conquest_has_sysUserListRelationFilter,
+       ?   code?: CodeListRelationFilter,
+       ?   userRole?: UserRoleRelationFilter | userRoleWhereInput,
+       ?   userStatus?: UserStatusRelationFilter | userStatusWhereInput,
+       ?   sysUser_has_Guild?: SysUser_has_GuildListRelationFilter,
+       ?   userInventory?: UserInventoryListRelationFilter
+         }
+       })
+
+Argument `where` of type sysUserWhereUniqueInput needs at least one of `idsysuser`, `userName`, `email` or `walletAddress` arguments. Available options are marked with ?.
+2023-10-26T16:40:14.883Z - Circuit has been opened.
+2023-10-26T16:40:14.883Z - Circuit open. Using fallback.
+2023-10-26T16:40:44.892Z - Circuit is half open.
+2023-10-26T16:41:30.559Z - Action failed: PrismaClientValidationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\sysUser.model.js:50:37
+
+  47 
+  48 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  49 
+→ 50   const user=  await prisma.sysUser.findUnique({
+         where: {
+           email: undefined,
+       ?   idsysuser?: Int,
+       ?   userName?: String,
+       ?   walletAddress?: String,
+       ?   AND?: sysUserWhereInput | sysUserWhereInput[],
+       ?   OR?: sysUserWhereInput[],
+       ?   NOT?: sysUserWhereInput | sysUserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   tempPassword?: StringNullableFilter | String | Null,
+       ?   tempCode?: StringNullableFilter | String | Null,
+       ?   tempPasswordExpDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   creationDate?: DateTimeFilter | DateTime,
+       ?   codeLoginWallet?: StringNullableFilter | String | Null,
+       ?   activationCodeLoginWalletExpirationDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   activationCode?: StringNullableFilter | String | Null,
+       ?   activationCodeExpirationDate?: DateTimeNullableFilter | DateTime | Null,
+       ?   userRole_iduserRole?: IntFilter | Int,
+       ?   userStatus_iduserStatus?: IntFilter | Int,
+       ?   Conquest_has_sysUser?: Conquest_has_sysUserListRelationFilter,
+       ?   code?: CodeListRelationFilter,
+       ?   userRole?: UserRoleRelationFilter | userRoleWhereInput,
+       ?   userStatus?: UserStatusRelationFilter | userStatusWhereInput,
+       ?   sysUser_has_Guild?: SysUser_has_GuildListRelationFilter,
+       ?   userInventory?: UserInventoryListRelationFilter
+         }
+       })
+
+Argument `where` of type sysUserWhereUniqueInput needs at least one of `idsysuser`, `userName`, `email` or `walletAddress` arguments. Available options are marked with ?.
+2023-10-26T16:41:30.560Z - Circuit open. Using fallback.
+2023-10-26T16:41:30.560Z - Circuit has been opened.
+2023-10-26T16:42:00.565Z - Circuit is half open.
+2023-10-26T16:46:25.262Z - Circuit has been closed.
+2023-10-26T19:40:54.015Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.conquest_has_sysUser.create()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\conquest.model.js:79:44
+
+  76 
+  77 exports.registerUserInConquest = async (data) => {
+  78 
+→ 79   return await prisma.conquest_has_sysUser.create(
+Unique constraint failed on the constraint: `Conquest_idConquest_UNIQUE`
+2023-10-26T19:40:54.016Z - Circuit has been opened.
+2023-10-26T19:40:54.016Z - Circuit open. Using fallback.
+2023-10-26T19:41:24.023Z - Circuit is half open.
+2023-10-26T19:41:52.448Z - Action failed: PrismaClientKnownRequestError: 
+Invalid `prisma.conquest_has_sysUser.create()` invocation in
+E:\New Repos\truecitynewbackend\Project\models\conquest.model.js:79:44
+
+  76 
+  77 exports.registerUserInConquest = async (data) => {
+  78 
+→ 79   return await prisma.conquest_has_sysUser.create(
+Unique constraint failed on the constraint: `Conquest_idConquest_UNIQUE`
+2023-10-26T19:41:52.448Z - Circuit has been opened.
+2023-10-26T19:41:52.448Z - Circuit open. Using fallback.
+2023-10-26T19:42:22.446Z - Circuit is half open.

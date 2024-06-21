@@ -1,0 +1,43 @@
+2024-06-15T15:37:03.335Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\Pc 8\Documents\GitHub\steelshockbackend\Project\models\sysUser.model.js:54:37
+
+  51 
+  52 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  53 
+→ 54   const user=  await prisma.sysUser.findUnique(
+Authentication failed against database server at `5.183.8.172`, the provided database credentials for `SteelUser` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `5.183.8.172`.
+2024-06-15T15:37:03.336Z - Circuit has been opened.
+2024-06-15T15:37:03.336Z - Circuit open. Using fallback.
+2024-06-15T15:37:11.706Z - Circuit open. Using fallback.
+2024-06-15T15:37:47.451Z - Circuit has been opened.
+2024-06-15T15:37:47.451Z - Circuit open. Using fallback.
+2024-06-15T15:37:47.451Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\Pc 8\Documents\GitHub\steelshockbackend\Project\models\sysUser.model.js:54:37
+
+  51 
+  52 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  53 
+→ 54   const user=  await prisma.sysUser.findUnique(
+Authentication failed against database server at `5.183.8.172`, the provided database credentials for `SteelUser` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `5.183.8.172`.
+2024-06-15T15:38:04.729Z - Circuit open. Using fallback.
+2024-06-15T15:38:17.453Z - Circuit is half open.
+2024-06-15T15:39:36.952Z - Action failed: PrismaClientInitializationError: 
+Invalid `prisma.sysUser.findUnique()` invocation in
+C:\Users\Pc 8\Documents\GitHub\steelshockbackend\Project\models\sysUser.model.js:54:37
+
+  51 
+  52 exports.getSysUserByEmail = async (mailToEvaluate) => {
+  53 
+→ 54   const user=  await prisma.sysUser.findUnique(
+Authentication failed against database server at `5.183.8.172`, the provided database credentials for `SteelUser` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `5.183.8.172`.
+2024-06-15T15:39:36.952Z - Circuit has been opened.
+2024-06-15T15:39:36.952Z - Circuit open. Using fallback.
+2024-06-15T15:40:06.962Z - Circuit is half open.
